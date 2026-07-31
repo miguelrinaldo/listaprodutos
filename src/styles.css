@@ -1,4 +1,4 @@
-import url(<link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap");
+import url(href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap");
 
 *{
     margin: 0px;
@@ -10,12 +10,12 @@ import url(<link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&
 root{
     --branca: #ffffff;
     --cor-fundo: #d8dbdf;
-    botao1: #1d1d1d;
-    botao2: #222;
+    --botao1: #1d1d1d;
+    --botao2: #222;
     --cor1: #94b5a0;
     --cor2: #f59e0b;
 }
 
 body{
     margin: 25px;
-}n add global styles to this file, and also import other style files */
+}
