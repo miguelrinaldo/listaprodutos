@@ -12,7 +12,7 @@ export class ListaProdutos {
   descricao_produto : string = 'valor'
   valor_unitario? : number = 0.0
   listaItens : Item[] =[]
-  
+
 
   addItem(){
     //INSTANCIA DA CLASSE ITEM PASSANDO OS PARAMETROS DO CONSTRUTOS
@@ -29,6 +29,11 @@ export class ListaProdutos {
     this.valor_unitario = 0.0
   }
 
-  
-
+  limparTudo(){
+    this.descricao_produto = ''
+    this.valor_unitario = 0.0
+  }
+   limparTudo(){
+    this.listaItens = []
+   }
 }
